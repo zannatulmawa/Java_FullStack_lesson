@@ -13,7 +13,7 @@ public class Tenary_Operators {
 		
 		int x;
 		
-		x = (4 >= 10) ?1 : 0;
+		x = (4 >= 10) ? 1 : 0;
 		
 		System.out.println(x);
 	}
