@@ -25,6 +25,7 @@ public class Switch_Case {
 
 		*/
 		
+		
 		switch(x) {
 		case 1: System.out.println("The value of x is 1"); //code block {} is optional here for every line. 
 				break;
