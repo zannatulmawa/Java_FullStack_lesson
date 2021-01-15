@@ -33,7 +33,7 @@ public class Nested_Loops {
 			
 			for (int j=1; j<=3; j++) {    
 				for (int i=1; i<=j; i++) {
-				System.out.print(j+i);
+				System.out.print(i+j);
 				}
 				System.out.println();
 			}

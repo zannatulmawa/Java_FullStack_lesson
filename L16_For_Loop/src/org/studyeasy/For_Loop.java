@@ -10,7 +10,7 @@ public class For_Loop {
 		*/
 		
 		
-		int primeNum = 19 ;
+		int primeNum = 21 ;
 		
 		//for(int i = 1; i<=10; i++)
 			if(primeNum % 2 == 0) {
