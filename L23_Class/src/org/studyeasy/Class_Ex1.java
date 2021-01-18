@@ -7,8 +7,11 @@ public class Class_Ex1 {
 				//new Car (This is the way of creating custom data type, here Car is the constructor)
 		
 		
-		car.setSpeed(10);
-		System.out.println(car.getSpeed());
+		//car.setSpeed(10);
+		//System.out.println(car.getSpeed());
+		
+		car.setDoors("Closed");
+		System.out.println(car.getDoors());
 
 	}
 
