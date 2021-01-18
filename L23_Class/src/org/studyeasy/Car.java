@@ -20,7 +20,15 @@ public class Car {
 	public void setDriver(String driver) {
 		this.driver = driver;
 	}
-	private String doors; //private is a method
+	
+	public String run() {
+		if (doors.equals("closed") && engine.equals("on") && driver.equals("seated") && speed>0 ) {
+			return "running";
+	} else {
+		return "not running" ;
+	}
+	}
+	private String doors; 
 	private String engine;
 	private String driver;
 	private int speed;
