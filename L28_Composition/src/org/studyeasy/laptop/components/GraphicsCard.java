@@ -1,7 +1,7 @@
 package org.studyeasy.laptop.components;
 
 public class GraphicsCard {
-	private String band; //properties
+	public String band; //properties
 	private int series;
 	private String memory;
 	
@@ -26,6 +26,9 @@ public class GraphicsCard {
 		return "GraphicsCard [band=" + band + ", series=" + series + ", memory=" + memory + "]";
 	}
 	
+	public int get_Series() {
+		return series;
+	}
 	
 	
 }

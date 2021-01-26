@@ -9,7 +9,7 @@ public class Laptop {
 	private Processor processor;
 	private String ram;
 	private String hardDrive;
-	private GraphicsCard graphicsCard;
+	public GraphicsCard graphicsCard;
 	private String opticalDrive;
 	private String Keyboard;
 	//super(); //super is the default constructor
@@ -42,6 +42,15 @@ public class Laptop {
 		return "Laptop [screen=" + screen + ", processor=" + processor + ", ram=" + ram + ", hardDrive=" + hardDrive
 				+ ", graphicsCard=" + graphicsCard + ", opticalDrive=" + opticalDrive + ", Keyboard=" + Keyboard + "]";
 	}
+	
+	//for 2nd part of the example
+	public Processor getProcessor() {
+		return processor;
+	}
+	public GraphicsCard getGraphicsCard() {
+		return graphicsCard;
+	}
+	
 	
 	
 	

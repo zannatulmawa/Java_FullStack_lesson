@@ -46,6 +46,55 @@ public class Processor {
 				+ ", threads=" + threads + ", cacheMemory=" + cacheMemory + ", frequency=" + frequency
 				+ ", MinFrequency=" + MinFrequency + ", Maxfrequency=" + Maxfrequency + "]";
 	}
+
+
+	//We will use getter method for part 2 of the composition
+	public String getBrand() {
+		return brand;
+	}
+
+
+	public String getSeries() {
+		return series;
+	}
+
+
+	public int getGeneration() {
+		return generation;
+	}
+
+
+	public int getCores() {
+		return cores;
+	}
+
+
+	public int getThreads() {
+		return threads;
+	}
+
+
+	public String getCacheMemory() {
+		return cacheMemory;
+	}
+
+
+	public String getFrequency() {
+		return frequency;
+	}
+
+
+	public String getMinFrequency() {
+		return MinFrequency;
+	}
+
+
+	public String getMaxfrequency() {
+		return Maxfrequency;
+	}
+	
+	
+
 	
 	
 }
