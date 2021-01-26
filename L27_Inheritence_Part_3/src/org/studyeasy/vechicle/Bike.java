@@ -24,6 +24,19 @@ public class Bike extends Vechicle {
 	public String getHandle() {
 		return handle;
 	}
+
+
+
+	@Override //custom toString method
+	public String toString() {
+		return "Bike [handle=" + handle + ", getHandle()=" + getHandle() + ", getEngine()=" + getEngine()
+				+ ", getWheels()=" + getWheels() + ", getSeats()=" + getSeats() + ", getFuelTank()=" + getFuelTank()
+				+ ", getLights()=" + getLights() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
+	
+	
+	
 	
 	
 	
