@@ -21,10 +21,6 @@ public class Anim {
 		//Bird birdObj = new Bird();
 		System.out.println(new Eagle());
 		System.out.println(new Eel());
-	}
-
-
-	
-	
+	}	
 
 }

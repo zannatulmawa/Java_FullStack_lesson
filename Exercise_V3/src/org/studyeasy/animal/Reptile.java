@@ -8,7 +8,9 @@ public class Reptile extends Animal {
 	private String EggType;
 	
 	
+	
 	public Reptile() {
+		
 		this.SkinType = "Dry Skin";
 		this.Bone = "Backbone";
 		this.EggType = "Soft-Shelled Eggs";
@@ -21,11 +23,11 @@ public class Reptile extends Animal {
 		this.EggType = eggType;
 	}
 
-	/*
+	
 	public String getSkinType() {
 		return SkinType;
 	}
-	*/
+
 
 
 	public void setBone(String bone) {
