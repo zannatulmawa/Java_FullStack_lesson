@@ -9,8 +9,6 @@ public class App {
 		try {
 			someMethod();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			//e.printStackTrace();
 			System.out.println("Catch block of main method");
 		}
 
