@@ -3,7 +3,7 @@ package org.studyeasy;
 public class App {
 
 	public static void main(String[] args) {
-		String[] names = {"Mawa", "Bony", "Ridwone", "Raihan", "Sohidul"};
+		String[] names = {"Mawa", "Bony", "Ridwone", "Raihan", "Sohidul"}; //String
 		App app = new App();
 		app.displayNames(names);
 		System.out.println("***************");
