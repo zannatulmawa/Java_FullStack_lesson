@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class Demo {
 	
 	
-	static ArrayList<String> listNames = new ArrayList<>();
+	static ArrayList<String> 
+	
+	listNames = new ArrayList<>();
 	
 	public static void main(String[] args) {
 		listNames.add("Mawa");
@@ -20,6 +22,17 @@ public class Demo {
 		
 		Demo demoObj = new Demo();
 		demoObj.displayList(listNames);
+		System.out.println("***************");
+		int position = demoObj.serach("Chamaly");
+		if(position != -1) {
+			demoObj.modifyName(position, "Lazly");
+			demoObj.displayList(listNames);
+		} else {
+			System.out.println("Invalid entry");
+		}
+		
+		
+		
 		demoObj.removeNameByPosition(0);
 		System.out.println("***************");
 		demoObj.displayList(listNames);
@@ -28,7 +41,7 @@ public class Demo {
 		System.out.println("***************");
 		Demo nameObj = new Demo();
 		nameObj.removeNameByName("Morjina");
-		nameObj.displayList(listNames);
+		nameObj.displayList(listNames); 
 
 	}
 	void displayList(ArrayList<String> names) {
@@ -42,6 +55,14 @@ public class Demo {
 	}
 	void removeNameByName(String name) {
 		listNames.remove(name);
+	}
+	
+	void modifyName(int position, String newName) {
+		listNames.set(position, newName);
+	}
+	
+	int serach(String name) {
+		return listNames.indexOf(name);
 	}
 
 }
