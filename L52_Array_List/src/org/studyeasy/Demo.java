@@ -5,9 +5,7 @@ import java.util.ArrayList;
 public class Demo {
 	
 	
-	static ArrayList<String> 
-	
-	listNames = new ArrayList<>();
+	static ArrayList<String> listNames = new ArrayList<>();
 	
 	public static void main(String[] args) {
 		listNames.add("Mawa");
