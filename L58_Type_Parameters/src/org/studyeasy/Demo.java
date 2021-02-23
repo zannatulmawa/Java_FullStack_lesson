@@ -2,7 +2,7 @@ package org.studyeasy;
 
 
 /*
- * The naming conventions are as follows-
+ * The naming conventions of Type Parameters are as follows-
  * T - Type
  * E - Element
  * K - Key
