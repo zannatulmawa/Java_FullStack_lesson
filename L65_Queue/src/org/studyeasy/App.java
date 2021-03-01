@@ -31,8 +31,8 @@ public class App {
 		Deque<Integer> deque = new LinkedBlockingDeque<>();
 		
 		
-			deque.offer(1);
-			deque.offer(2);
+			deque.offer(1); //double ended queue
+			deque.offer(2); // It works in both ways like queue and arrays
 			deque.offer(3);
 			deque.offer(4);
 			deque.offer(5);
